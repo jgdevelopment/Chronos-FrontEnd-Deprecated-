@@ -665,7 +665,7 @@
                         <outlet property="playButton" destination="LUz-zv-GrI" id="gmX-Nr-7gs"/>
                         <outlet property="priceBack" destination="6Xz-0s-2sF" id="w0b-zh-QXC"/>
                         <outlet property="priceData" destination="Rtn-OL-eCz" id="YDP-fW-YUl"/>
-                        <outlet property="pricePageControl" destination="RG8-Yk-bYo" id="v2F-j6-WLP"/>
+                        <outlet property="pricePageControl" destination="RG8-Yk-bYo" id="eO6-VP-YbZ"/>
                         <outlet property="rewindButton" destination="g5X-0H-bDy" id="dVW-Ch-oMH"/>
                         <outlet property="scrollBackground" destination="XxX-TQ-nnk" id="0Ih-Tc-90k"/>
                         <outlet property="searchBar" destination="gdP-GU-KBX" id="Ndk-fA-RVw"/>

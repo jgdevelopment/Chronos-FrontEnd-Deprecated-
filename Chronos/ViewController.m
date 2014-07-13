@@ -32,9 +32,12 @@
     _newsWeb.delegate = self;
     _newsWeb.scalesPageToFit = YES;
     
+    _pricePageControl.currentPage = 0;
+    _pricePageControl.numberOfPages = 2;
+    [_pricePageControl addTarget:self action:@selector(changePage:) forControlEvents:UIControlEventValueChanged];
+
     newsTable.dataSource = self;
 
-    
     _windImage.center=CGPointMake(93,332);
     
     _confirmButton.frame = CGRectMake(_confirmButton.frame.origin.x,self.view.frame.size.height-63, self.view.frame.size.width, self.view.frame.size.height);
@@ -686,8 +689,8 @@
             
         }
     }
-    else{
-        
+    else if ([sender isEqual:_homeScroll]){
+        _pricePageControl.currentPage = _pageNumber;
     }
 }
 
